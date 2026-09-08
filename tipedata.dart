@@ -34,9 +34,14 @@ void main(){
   // //print ('nama saya ${nmmhs[2]}');
   // print('nama saya ${namamhs.elementAt(2)}');
 
-  // map
-  Map<String,String> datamhs ={'nama': 'Deka','berat': '30'};
-  print('nama saya ${datamhs['nama']},berat saya ${datamhs['berat']}');
+  // // map
+  // Map<String,String> datamhs ={'nama': 'Deka','berat': '30'};
+  // print('nama saya ${datamhs['nama']},berat saya ${datamhs['berat']}');
+
+  var datamhs=['A','B',0];
+  var datamhs1={'A','B',0};
+  var datamhs2={'nama': 'Deka', 'berat':30};
   
+
 
 }
