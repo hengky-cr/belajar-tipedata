@@ -44,12 +44,19 @@ void main(){
 
   //final vs const
 
-  final String nama;
-  nama = 'Cindy';
-  const String nama1='Sindy';
+  // final String nama;
+  // nama = 'Cindy';
+  // const String nama1='Sindy';
   //const hanya dapat di masukkan saat deklarasi sedangkan final tetap bisa di masukkan setelah deklarasi namun hanya 1x
 
-  
+  Map data1  = {"nama":"Simon", "Umur": 28,"prodi":"BD"};
+  Map data2  = {"nama":"Rafael", "Umur": 25,"prodi":"SI"};
+  Map data3  = {"nama":"Zuan", "Umur": 22,"prodi":"TI"};
 
+  List data =[];
+  data.add(data1);
+  data.add(data2);
+  data.add(data3);
 
+  print(data);
 }
