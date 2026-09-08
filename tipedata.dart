@@ -1,3 +1,5 @@
+import 'dart:vmservice_io';
+
 void main(){
   // String nama='Cindy';
   // int umur = 20;
@@ -18,4 +20,13 @@ void main(){
   // var nilai3 = true;
   // dynamic nilai4=true;
 
+  //list => array dengan index int
+  List datamhs =[];
+  //print ('saya pilih ${datamhs[2]}');
+  datamhs.add('A');
+  datamhs.add('true');
+  datamhs.add(10);
+  //datamhs.elementAt() datamhs[]
+  print('saya ${datamhs.indexof(10)}');
+  
 }
