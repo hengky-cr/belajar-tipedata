@@ -21,12 +21,22 @@ void main(){
   // dynamic nilai4=true;
 
   //list => array dengan index int
-  List datamhs =[];
-  //print ('saya pilih ${datamhs[2]}');
-  datamhs.add('A');
-  datamhs.add('true');
-  datamhs.add(10);
-  //datamhs.elementAt() datamhs[]
-  print('saya ${datamhs.indexof(10)}');
+  // List datamhs =[];
+  // //print ('saya pilih ${datamhs[2]}');
+  // datamhs.add('A');
+  // datamhs.add('true');
+  // datamhs.add(10);
+  // //datamhs.elementAt() datamhs[]
+  // print('saya ${datamhs.indexof(10)}');
+
+  // set
+  // Set namamhs = {'A','B','C','B','A','D'};
+  // //print ('nama saya ${nmmhs[2]}');
+  // print('nama saya ${namamhs.elementAt(2)}');
+
+  // map
+  Map<String,String> datamhs ={'nama': 'Deka','berat': '30'};
+  print('nama saya ${datamhs['nama']},berat saya ${datamhs['berat']}');
   
+
 }
