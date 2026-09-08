@@ -38,9 +38,17 @@ void main(){
   // Map<String,String> datamhs ={'nama': 'Deka','berat': '30'};
   // print('nama saya ${datamhs['nama']},berat saya ${datamhs['berat']}');
 
-  var datamhs=['A','B',0];
-  var datamhs1={'A','B',0};
-  var datamhs2={'nama': 'Deka', 'berat':30};
+  // var datamhs=['A','B',0];
+  // var datamhs1={'A','B',0};
+  // var datamhs2={'nama': 'Deka', 'berat':30};
+
+  //final vs const
+
+  final String nama;
+  nama = 'Cindy';
+  const String nama1='Sindy';
+  //const hanya dapat di masukkan saat deklarasi sedangkan final tetap bisa di masukkan setelah deklarasi namun hanya 1x
+
   
 
 
